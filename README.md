@@ -45,4 +45,5 @@ nomor = input('Phone Number (example: 81256281738): ')
 thr = int(input('Thread: '))
 for i in range(0,thr):
 	t = threading.Thread(target=otp, args=[nomor])
-	t.start()```
+	t.start()
+```
